@@ -1,0 +1,17 @@
+<div class='container' class="row">
+  <div class='card' style="width: 18 rem" *ngFor = 'let runner of moviesList'>
+    <h3>{{runner.title}}</h3>
+    <div class="card-body">
+    <h5 class="card-title">Details</h5>
+    <p class="card-title">
+      Year:{{runner.year}}<br>
+      Director:{{runner.director}}<br>
+      Cast:{{runner.cast}}<br>
+      Genre:{{runner.genre}}<br>
+      Notes:{{runner.notes}}<br>
+    </p>
+    </div>
+    <br>
+  </div>
+<br>
+</div>
